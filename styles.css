@@ -38,6 +38,8 @@ ul, a {
     font-size: 18px;
 }
 
+.right-links a:hover {color: #bd220e}
+
 .left-links{
     margin: 0;
     padding: 0;
@@ -104,7 +106,7 @@ ul, a {
 .section1 {
     background-color: rgb(255, 255, 255);
     margin: 0;
-    padding: 30px 250px 150px;
+    padding: 80px 250px 80px;
 }
 
 .title {
@@ -135,6 +137,84 @@ ul, a {
     width: 100px;
     height: 100px;
     border-radius: 10%;
-    border: 3px solid blue;
+    border: 3px solid rgb(30, 70, 202);
+    cursor: progress;
 }
 
+.info img:hover {border-color: #e24413}
+
+.section2 {
+    background-color: #e7e5eb;
+    margin: 0;
+    padding: 80px 250px 80px;
+    display: flex;
+    flex-direction: column;
+}
+
+.section2 p {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: lighter;
+    font-style: italic;
+}
+
+.p2 {
+    text-align: end;
+    font-weight: bolder;
+}
+
+.section3 {
+    background-color: #ffffff;
+    margin: 0;
+    padding: 80px 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.modal {
+    background-color: #3882f6;
+    color: #ffffff;
+    margin: 0;
+    padding: 30px 50px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 250px;
+}
+
+.text-main {
+    color: #f8f8f8;
+    font-size: 36px;
+    font-weight: 900;
+}
+
+.text-sub {
+    color: #e9e9e9;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.modal .right button {
+    width: 120px;
+    height: 40px;
+    color: #f9faf8;
+    background-color: #3882f6;
+    font-size: 18px;
+    font-weight: 700;
+    border: 2px solid;
+    border-color: #ffffff;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.modal .right button:hover {background-color: #043585}
+
+.footer {
+    background-color: #1f2937;
+    color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
